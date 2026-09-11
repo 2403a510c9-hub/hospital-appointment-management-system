@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Hospital Appointment Management System</h1>
+        <h2>Patient Registration</h2>
+
+        <form>
+
+            <label for="name">Patient Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter patient name">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter age">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email">
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="Enter address"></textarea>
+
+            <label for="problem">Medical Problem:</label>
+            <textarea id="problem" name="problem" placeholder="Enter medical problem"></textarea>
+
+            <button type="submit">Register Patient</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
